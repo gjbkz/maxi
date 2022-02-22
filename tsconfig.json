@@ -1,17 +1,36 @@
 {
-    "compilerOptions": {
-        "target": "es2017",
-        "module": "commonjs",
-        "resolveJsonModule": true,
-        "esModuleInterop": true,
-        "declaration": true,
-        "strict": true,
-        "removeComments": true,
-        "sourceMap": true,
-        "noFallthroughCasesInSwitch": true,
-        "noImplicitAny": true,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "noUnusedLocals": true
-    }
+  "compilerOptions": {
+    "incremental": true,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "declaration": false,
+    "sourceMap": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "isolatedModules": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
