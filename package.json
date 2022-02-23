@@ -12,7 +12,7 @@
     },
     "devDependencies": {
         "@commitlint/cli": "8.2.0",
-        "@commitlint/config-conventional": "8.2.0",
+        "@commitlint/config-conventional": "8.3.6",
         "@types/aws-lambda": "^8.10.27",
         "@types/eslint": "^4.16.6",
         "@types/js-yaml": "^3.12.1",
