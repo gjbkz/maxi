@@ -11,7 +11,7 @@
         "bump": "lerna version --conventional-commits --sign-git-commit --sign-git-tag --no-push"
     },
     "devDependencies": {
-        "@commitlint/cli": "8.2.0",
+        "@commitlint/cli": "8.3.6",
         "@commitlint/config-conventional": "8.2.0",
         "@types/aws-lambda": "^8.10.27",
         "@types/eslint": "^4.16.6",
