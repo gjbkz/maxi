@@ -8,7 +8,7 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@nlib/typing": "0.2.3",
+        "@nlib/typing": "0.3.4",
         "htmlparser2": "7.2.0",
         "next": "12.1.0",
         "react": "17.0.2",
