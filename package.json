@@ -17,7 +17,7 @@
     "devDependencies": {
         "@nlib/eslint-config": "3.17.30",
         "@nlib/githooks": "0.1.0",
-        "@types/jest": "27.5.0",
+        "@types/jest": "27.5.1",
         "@types/react": "17.0.45",
         "@typescript-eslint/eslint-plugin": "5.23.0",
         "@typescript-eslint/parser": "5.23.0",
